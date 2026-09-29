@@ -1,0 +1,27 @@
+FICTIONAL SERVICE AGREEMENT — DEMO ONLY
+This is invented test data, not a legal template.
+
+1. Parties and scope
+Example Studio provides monthly website maintenance to Demo Client.
+The initial term runs from 1 October 2026 to 31 December 2026.
+
+2. Payment
+The client pays INR 5,000 per month, due on the fifth day of each month.
+The provider may increase the monthly fee at any time without prior notice.
+
+3. Renewal
+The agreement automatically renews for twelve months unless the client gives
+written notice at least sixty days before the end of the initial term.
+---PAGE---
+FICTIONAL SERVICE AGREEMENT — PAGE 2
+
+4. Termination
+The client must pay all remaining monthly fees if it terminates early.
+The provider may terminate the service with seven days of written notice.
+
+5. Data handling
+The provider may share client contact information with unnamed third parties.
+No deletion schedule is specified in this sample agreement.
+
+6. Questions intentionally left unanswered
+This sample does not specify a governing law or dispute resolution venue.

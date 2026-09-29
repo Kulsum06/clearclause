@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ClearClause — Legal AI Assistant</title><link rel="stylesheet" href="/static/styles.css"><script src="/static/app.js" defer></script></head>
+<body>
+<header><a class="brand" href="/">⚖ ClearClause</a><span class="badge">DOCUMENT INTELLIGENCE</span></header>
+<main>
+<section class="intro"><p class="eyebrow">LESS LEGAL JARGON. MORE CLARITY.</p><h1>Understand what<br>you’re agreeing to.</h1><p>Turn a dense agreement into a clear summary, clauses to review, and answers grounded in your document.</p></section>
+<div class="workspace"><section class="panel"><h2>Your document</h2><p class="muted">Start with a PDF containing selectable text.</p>
+<form id="form">
+<label class="upload" for="file"><strong>Choose a PDF</strong><span>Up to 10 MB · 80 pages · 100,000 text characters</span><input id="file" name="file" type="file" accept="application/pdf,.pdf" required></label>
+<label for="question">What would you like to understand? <span class="muted">(optional)</span></label>
+<textarea id="question" name="question" maxlength="2000" rows="4" placeholder="What happens if I terminate this agreement early?"></textarea>
+<label class="consent"><input id="consent" type="checkbox" required><span>I have permission to share this document and agree to send its extracted text and my question to Google Gemini.</span></label>
+<button id="submit" type="submit">Analyze document <span aria-hidden="true">→</span></button>
+<p id="status" role="status" aria-live="polite"></p>
+</form><p class="footnote">Educational assistance, not legal advice. This app does not intentionally save uploads. Google’s data handling terms apply to the text sent for analysis.</p></section>
+<section class="panel output"><div class="result-heading"><h2>Your analysis</h2><button id="download" class="secondary" hidden>Download report</button></div><div id="empty"><span class="empty-icon" aria-hidden="true">§</span><h3>Clarity starts here.</h3><p>Upload a document to explore its meaning, one clause at a time.</p></div><div id="results" hidden><p id="coverage" class="muted"></p><h3>Plain-English summary</h3><p id="summary" class="preserve"></p><h3>Clauses to review</h3><div id="clauses"></div><div id="answer-section" hidden><h3>Your question, answered</h3><p id="answer" class="preserve"></p></div><div id="warnings" class="notice"></div></div></section></div>
+<footer>ClearClause · Generative AI / NLP / Legal Technology</footer>
+</main></body></html>
